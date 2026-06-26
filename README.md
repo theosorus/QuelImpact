@@ -12,9 +12,9 @@ Quand un amendement modifie un seuil, un taux ou un barème socio-fiscal, le tex
  
 Un pipeline en trois temps :
  
-1. **Lecture** — un agent lit l'amendement (données de la 17e législature) et repère les paramètres socio-fiscaux modifiés.
-2. **Mapping** — il relie ces changements aux paramètres correspondants dans OpenFisca.
-3. **Simulation** — le moteur OpenFisca, déterministe et officiel, calcule l'impact sur des cas types de ménages (célibataire au SMIC, couple avec deux enfants, retraité, etc.).
+1. **Lecture** : un agent lit l'amendement (données de la 17e législature) et repère les paramètres socio-fiscaux modifiés.
+2. **Mapping** : il relie ces changements aux paramètres correspondants dans OpenFisca.
+3. **Simulation** : le moteur OpenFisca, déterministe et officiel, calcule l'impact sur des cas types de ménages (célibataire au SMIC, couple avec deux enfants, retraité, etc.).
 Une interface affiche le résultat avant/après et l'explique en langage clair.
  
 ## Pourquoi c'est une IA de confiance
